@@ -1,3 +1,4 @@
+import 'package:app_config_test/test_with_manual_implementation.dart';
 import 'package:app_config_test/test_with_package.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: const TestWithPackage(),
+      home: const TestWithManualImplementation(),
     );
   }
 }
